@@ -31,8 +31,8 @@ app.post('/send-email', (req, res) => {
     const mailOptions = {
         from: 'harishbhalaa@gmail.com',
         to: userEmail,
-        subject: 'Test Email',
-        text: 'This is a test email sent from your Node.js server.'
+        subject: 'Voting',
+        text: 'The link to put your vote is https://rose-salamander-sock.cyclic.app/'
     };
 
     // Send the email
